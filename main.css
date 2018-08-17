@@ -1,4 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .product-image img {
   max-height: 650px;
   height: 100%;
+}
+
+.details {
+  margin-top: 60px;
+}
+
+.small-head {
+  color: #559CDF;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.product-name {
+  margin: 30px auto;
+}
+
+.product-name h1 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.product-info {
+  border-bottom: 1px solid #a7a4b6;
+}
+
+.product-info p {
+  color: #a7a4b6;
+  font-weight: 300;
+}
+
+.color-choice, .cable-config {
+  margin: 30px auto;
+}
+
+.color-choice p, .cable-config p {
+  font-size: 12px;
+  color: #a7a4b6;
+}
+
+.btn-circle{
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #a7a4b6;
+}
+
+.btn-outline-dark {
+  border: 1px solid #a7a4b6;
+  font-size: 14px;
+}
+
+.red {
+  background-color: #c91524;
+}
+
+.blue {
+  background-color: #314780;
+}
+
+.black {
+  background-color: #323232;
+}
+
+.help a {
+  font-size: 12px;
+}
+.help{
+  margin-bottom: 15px;
+  border-bottom: 1px solid #a7a4b6;
+  padding-bottom: 10px;
+}
+.price-cart span{
+  margin-right: 10px;
+  font-size: 20px;
 }
